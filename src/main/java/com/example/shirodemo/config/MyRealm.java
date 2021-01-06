@@ -16,7 +16,7 @@ import java.util.Set;
 public class MyRealm extends AuthorizingRealm {
     /**
      * 授权
-     *
+     * build test
      * @param principalCollection
      * @return
      */
