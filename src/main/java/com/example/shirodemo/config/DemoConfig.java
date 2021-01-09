@@ -1,7 +1,9 @@
 package com.example.shirodemo.config;
 
-import com.example.demodependency.dao.PersonDAL;
-import com.example.demodependency.dao.PersonDALImpl;
+//import com.example.demodependency.dao.PersonDAL;
+//import com.example.demodependency.dao.PersonDALImpl;
+import com.kevin.demodependency.dao.PersonDAL;
+import com.kevin.demodependency.dao.PersonDALImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

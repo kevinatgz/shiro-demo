@@ -1,10 +1,11 @@
 package com.example.shirodemo.controller;
 
 //import com.example.demodependency.dao.PersonDAL;
-import com.example.demodependency.dao.PersonDAL;
+import com.kevin.demodependency.dao.PersonDAL;
 import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.*;
 import org.apache.shiro.subject.Subject;
+//import org.example.test.Person;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -55,7 +56,7 @@ public class UserController {
 
     @RequestMapping("/list")
     public String userList() {
-
+//            Person p =new Person();
         LOG.info("Getting all data from MongoDB: \n{}",
                 personDAL.getAllPerson());
         return "访问我需要登录并且需要拥有user角色！";
